@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #013a8b ;
+}
+button.correct{
+    background-color: #177245;
+    font-weight: 700;
+}
+button.incorrect{
+    background-color: #BF4F51;
+    font-weight: 700;
+}
+
+
+.back:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.back:visited{
+    color: #353839;
+    text-decoration: none;
+}
+.back{
+    text-decoration: none;
+}
+
+.app{
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.selected{
+    width: 100%;
+    height: 100px;
+   
+    color: #ffffff;
+    border-color: #5f91f4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    background-color: #3171f1;
+    font-weight: 600;
+}
+
+.answer-buttons .btn{
+    width: 100%;
+    height: 100px;
+    background-color:#5f91f4 ;
+    color: #ffffff;
+    border-color: #5f91f4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.answer-buttons .btn:hover:not([disabled]){
+    background-color: #3171f1;
+    font-weight: 600;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+.app h1{
+    color: #353839;
+    font-weight:900;
+    border-bottom: 1px solid #353839;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.quiz h2{
+    font-weight: 700;
+    color:#1266be;
+    padding: 20px 0 20px 0;
+}
+.quiz{
+    padding: 20px o;
+}
+#next-btn{
+    background-color:#353839;
+    color:#ffffff;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    align-content: center;
+    border: 1px solid;
+}
+
+#next-btn:hover{
+    background-color:#ffffff;
+    font-weight: 700;
+    color:#5f91f4 ;
+    border-color: #1266be;
+    border-radius: 10px;
+    border-width: 5px;
+    font-size:20px;
+}
+

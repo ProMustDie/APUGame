@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #013a8b;
+}
+
+.app {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 1000px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+    color: #353839;
+    font-weight:900;
+    border-bottom: 1px solid #353839;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+h3{
+    font-weight: 700;
+    color:#1266be;
+    padding: 20px 0 20px 0;
+    font-size: 22px;
+}
+.quiz{
+    padding: 20px o;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60vw;
+}
+
+.card-container {
+    display: table;
+    width: 200px;
+    margin: 0 20px 0 20px;
+}
+
+.card-container .card-img {
+    display: block;
+}
+
+.card-container .card-img.hidden {
+    display: none;
+}
+
+.card-container .card-text {
+    display: none;
+}
+
+.card-container .card-text.show {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1266be;
+    border-radius: 10px;
+    
+}
+
+.card-container .hide-this {
+    display: none;
+}
+
+
+.back:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.back:visited{
+    color: #353839;
+    text-decoration: none;
+}
+.back{
+    text-decoration: none;
+}

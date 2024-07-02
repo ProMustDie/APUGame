@@ -1,0 +1,119 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('teacher_main_page_background.jpg');
+    background-size: cover;
+  }
+  header{
+    background-color: white;
+  }
+
+  .logo{
+    margin-top: -15px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  .navbar ul {
+    list-style: none;
+    background: #fff;
+    margin-top:15px;
+    font-weight: 700;
+}
+
+.navbar ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #000; /* Set text color to black */
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.navbar ul li ul.dropdown li {
+    display: block;
+}
+
+.navbar ul li ul.dropdown {
+    width: 100%;
+    background: #fff; /* Set background color of dropdown to white */
+    position: absolute;
+    z-index: 999;
+    display: none;
+    margin-top: 1px;
+}
+
+.navbar ul li a:hover {
+    background: #fff;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li:hover ul.dropdown {
+    display: block;
+}
+
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+  font-size: 110px;
+  color: #fff;
+  font-weight:600;
+  transition: 0.5s;
+
+}
+.content h1:hover{
+-webkit-text-stroke: 2px #fff;
+color: transparent;
+
+}
+
+.back-video{
+  position: absolute;
+  right: 0 ;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+}
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  border: 2px solid #fff;
+  padding: 14px 70px;
+  border-radius: 40px;
+  transition: all 0.2s ease;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+.button:active {
+  transform: scale(0.96);
+}
+
+.active {
+  color: rgb(0, 225, 255);
+}
+

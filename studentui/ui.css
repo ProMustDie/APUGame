@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: poppins,sans-serif;
+}
+
+body{
+    background-color: #013a8b;
+}
+
+.back:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.back:visited{
+    color: #353839;
+    text-decoration: none;
+}
+.back{
+    text-decoration: none;
+}
+.app{
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow:hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,15);
+
+}
+.app table thead tr{
+    background-color: #5f91f4;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.app table td{
+    padding: 12px 15px;
+}
+.app table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.app table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.app table tbody tr:last-of-type {
+    border-bottom: 2px solid #5f91f4;
+}
+.app table tbody tr:hover{
+    font-weight: bold;
+    color: #5f91f4;
+    cursor: pointer;
+}
+
+.app h1{
+font-size: 70px;
+  font-weight: 600;
+  color: #353839;
+  border-bottom: 2px solid #353839;
+    padding-bottom: 30px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    background-color: #5f91f4;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    height:15rem;
+    border-radius: 10px;
+    justify-content: space-around;
+    width: 30%;
+}
+button:hover{
+    background-color: #3474f6;
+
+}
+H2{
+    font-size: 30px;
+
+}
+

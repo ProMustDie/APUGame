@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #013a8b ;
+}
+.app{
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    color: #353839;
+    font-weight:800;
+    border-bottom: 1px solid #353839;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.selectedAnswers{
+    border: #353839;;
+    border-bottom: black;
+}
+.draggable {
+    padding:1rem;
+    background-color: #ffffff;
+    border-color: #5f91f4 ;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.draggable.dragging{
+    opacity: 0.5;
+
+}
+#next-btn{
+    background-color:#353839;
+    color:#ffffff;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    align-content: center;
+    border: 1px solid;
+}
+
+#next-btn:hover{
+    background-color:#ffffff;
+    font-weight: 700;
+    color:#5f91f4 ;
+    border-color: #1266be;
+    border-radius: 10px;
+    border-width: 5px;
+    font-size:20px;
+}
+
+.default{
+    width: 100px;
+    height: 40px;
+
+    /*default style of the words when shown on screen with qeustions*/
+}

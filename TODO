@@ -1,0 +1,14 @@
+(DONE)implement AJAX and PHP into the rearrange game-> create DB for the game
+(DONE)covert memory game to have diff quizzes-> modify PHP and DB
+display leaderboard results-> PHP display and create table -> modify all the game code to save the results while simultaneously remember who played the game (even tho I was not given the code to user table, $_SESSION or any of the user login system)
+(BROKEN)user create quiz-> more UI, Frontend, PHP + SQL
+
+mcq - at the end of the game, save results
+memorygame.html - if possible (spacing between each cards??)
+                - align the words to the centre, cause when words got two lines, it will somehow align to the left
+        
+            
+
+save results for all game-
+
+

@@ -1,0 +1,37 @@
+CREATE TABLE Publisher (
+PublisherID nvarchar(50) NOT NULL,
+Name nvarchar(50),
+Address nvarchar(50),
+PRIMARY KEY (PublisherID)
+);
+
+INSERT INTO Publisher
+(PublisherID,Name,Address)
+Values
+('P01','Pearson','Bukit Jalil'),
+('P02','Deitel','Puchong'),
+('P03','Rainbow','Subang'),
+('P04','Machill','Kuala Lumpur');
+
+CREATE TABLE Book (
+BookID nvarchar(50) NOT NULL,
+Name nvarchar(50),
+Author nvarchar(50),
+Price nvarchar(50),
+PublishedDate date,
+PublisherID nvarchar(50),
+PRIMARY KEY (BookID),
+FOREIGN KEY (PublisherID) REFERENCES Publisher(PublisherID)
+);
+
+INSERT INTO Book 
+(BookID, Name, Author, Price,PublishedDate,PublisherID)
+VALUES
+('B01','Maths','Wenton','50.60','10 Jan 2016','P01'),
+('B02','Science','S.Hanson','100.00','12 Feb 2016','P01'),
+('B03','English','K.Vince','89.30','9 March 2016','P02'),
+('B04','Biology','K.Vince','150.80','24 April 2016',NULL),
+('B05','Computing','J.Denzon',NULL,NULL,NULL);
+
+SELECT * from Publisher
+Select * from Book

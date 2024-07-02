@@ -1,0 +1,35 @@
+.app{
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+*{
+    margin: 0;
+    padding:0;
+    font-family: poppins,sans-serif;
+}
+
+body{
+    background-color: #013a8b;
+}
+
+.back:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.back:visited{
+    color: #353839;
+    text-decoration: none;
+}
+
+.app h1{
+    font-size: 70px;
+      font-weight: 600;
+      color: #353839;
+      border-bottom: 2px solid #353839;
+        padding-bottom: 30px;
+    }
+    
